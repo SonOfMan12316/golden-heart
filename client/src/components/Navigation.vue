@@ -4,7 +4,6 @@
             <div class="px-6 sm:px-6 lg:px-16 lg:py-4 xl:px-32">
                 <div class="nav-content flex items-center justify-between">
                     <div @click="reloadPage" class="image-div cursor-pointer flex items-center h-16">
-                        <!-- <img class="image md:w-32 lg:w-36 xl:w-40" src="../assets/images/GoldenHeartLogo.png"/> -->
                         <img :src="logo"/>
                     </div>
                     <div class="nav-links hidden lg:block" v-show="!mobile">
@@ -19,12 +18,7 @@
                     <div class="hidden lg:block lg:mr-3 xl:mr-0" v-show="!mobile">
                         <router-link to="/goldenHeartFunaab">
                             <div class="buttonNavBg flex items-center w-full rounded-3xl lg:px-2 lg:h-7">
-                                <!-- <LoveSvg/> -->
                                 <button class=" font-medium text-xs uppercase h-10 lg:w-40 xl:w- rounded-xl text-white font-serif">Golden Heart funaab</button>
-                                <!-- <button class=" font-medium text-xs uppercase h-10 lg:w-40 xl:w- rounded-xl text-white font-serif">Log In</button>
-                                <button class=" font-medium text-xs uppercase h-10 lg:w-40 xl:w- rounded-xl text-white font-serif">Register</button>
-                                <button class=" font-medium text-xs uppercase h-10 lg:w-40 xl:w- rounded-xl text-white font-serif">Profile</button>
-                                <button class=" font-medium text-xs uppercase h-10 lg:w-40 xl:w- rounded-xl text-white font-serif">Logout</button> -->
                             </div>
                         </router-link>
                     </div>
@@ -53,11 +47,6 @@
                             <li class="py-1 font-serif font-medium text-lg text-white lg:text-2xl hover:font-bold active:font-bold active:ease-in-out hover:active:ease-in-out hover:cursor-pointer active:cursor-pointer duration-1000">Golden Heart funaab</li>
                             </router-link>
                         </div>      
-                                   
-                        <!-- <div class="bg-black flex items-center w-full rounded-3xl lg:px-2 lg:h-7">
-                            <LoveSvg/> 
-                            <button class=" font-medium h-7 lg:h-9 lg:text-base w-32 rounded-xl text-white font-serif uppercase">Golden Heart Funaab</button>
-                        </div> -->
                     </div>
                 </ul>
             </transition>
@@ -69,7 +58,6 @@
 import CancelSvg from './SvgComponent/CancelSvg.vue'
 import BurgerSvg from './SvgComponent/BurgerSvg.vue'
 import LoveSvg from './SvgComponent/LoveSvg.vue'
-// import Hamburger from '../components/Hamburger.vue'
 export default {
     data(){
         return {
