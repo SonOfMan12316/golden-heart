@@ -1,0 +1,18 @@
+<template>
+    <div>
+        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.844 19.9184C15.9947 19.9184 20.1701 15.743 20.1701 10.5924C20.1701 5.44176 15.9947 1.26636 10.844 1.26636C5.69341 1.26636 1.51801 5.44176 1.51801 10.5924C1.51801 15.743 5.69341 19.9184 10.844 19.9184Z" stroke="#E2B85E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M8.69183 7.00562L14.4309 10.5925L8.69183 14.1795V7.00562Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>

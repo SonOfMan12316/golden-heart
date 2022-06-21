@@ -1,0 +1,17 @@
+<template>
+    <div>
+        <svg width="24" height="19" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.15625 1.96875H21.8438M2.15625 16.9688H21.8438H2.15625ZM2.15625 9.46875H21.8438H2.15625Z" stroke="white" stroke-width="2.8125" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>
