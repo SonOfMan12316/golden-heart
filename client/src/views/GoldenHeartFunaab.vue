@@ -54,7 +54,6 @@
                     <div class="flex flex-col items-center">
                         <div class="flex flex-col justify-center items-center">
                             <li class="py-0 font-serif font-medium text-lg text-white lg:text-2xl hover:font-bold active:font-bold hover:cursor-pointer active:cursor-pointer hover:active:ease-in-out active:ease-in-out duration-1000"><router-link to="/">Home</router-link></li>
-                            <!-- <li class="py-1 font-serif font-medium text-lg text-white lg:text-2xl hover:font-bold active:font-bold active:ease-in-out hover:active:ease-in-out hover:cursor-pointer active:cursor-pointer duration-1000">Gallery</li> -->
                             <li class="py-1 font-serif font-medium text-lg text-white lg:text-2xl hover:font-bold active:font-bold active:ease-in-out hover:active:ease-in-out hover:cursor-pointer active:cursor-pointer duration-1000">Who We Are</li>
                             <li class="py-1 font-serif font-medium text-lg text-white lg:text-2xl hover:font-bold active:font-bold active:ease-in-out hover:active:ease-in-out hover:cursor-pointer active:cursor-pointer duration-1000">What We Do</li>
                             <router-link to="/Profile" class="py-1 font-serif font-medium text-lg text-white lg:text-2xl hover:font-bold active:font-bold active:ease-in-out hover:active:ease-in-out hover:cursor-pointer active:cursor-pointer duration-1000">Account</router-link>

@@ -44,7 +44,7 @@
                             <li @click="scrollToWhatWeDo" class="py-1 font-serif font-medium text-lg text-white lg:text-2xl hover:font-bold active:font-bold active:ease-in-out hover:active:ease-in-out hover:cursor-pointer active:cursor-pointer duration-1000">What We Do</li>
                             <li class="py-1 font-serif font-medium text-lg text-white lg:text-2xl hover:font-bold active:font-bold active:ease-in-out hover:active:ease-in-out hover:cursor-pointer active:cursor-pointer duration-1000">Contact Us</li>
                             <router-link to="/goldenHeartFunaab">
-                            <li class="py-1 font-serif font-medium text-lg text-white lg:text-2xl hover:font-bold active:font-bold active:ease-in-out hover:active:ease-in-out hover:cursor-pointer active:cursor-pointer duration-1000">Golden Heart funaab</li>
+                            <li class="py-1 font-serif font-medium text-lg text-white lg:text-2xl hover:font-bold active:font-bold active:ease-in-out hover:active:ease-in-out hover:cursor-pointer active:cursor-pointer duration-1000">Golden Heart Funaab</li>
                             </router-link>
                         </div>      
                     </div>
