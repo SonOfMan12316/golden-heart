@@ -16,11 +16,11 @@
                         </ul>
                     </div>
                     <div class="hidden lg:block lg:mr-3 xl:mr-0" v-show="!mobile">
-                        <router-link to="/goldenHeartFunaab">
+                        <!-- <router-link to="/goldenHeartFunaab">
                             <div class="buttonNavBg flex items-center w-full rounded-3xl lg:px-2 lg:h-7">
                                 <button class=" font-medium text-xs uppercase h-10 lg:w-40 xl:w- rounded-xl text-white font-serif">Golden Heart funaab</button>
                             </div>
-                        </router-link>
+                        </router-link> -->
                     </div>
                 </div>
             </div>
