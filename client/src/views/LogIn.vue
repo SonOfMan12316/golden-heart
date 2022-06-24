@@ -1,5 +1,5 @@
 <template>
-    <div class="LogIn h-screen sm:h-screen xl:h-screen xl:pb-0  bg-center bg-cover"  :style="{ backgroundImage: `url(${image})` }">
+    <div class="LogIn h-screen xl:pb-0  bg-center bg-cover"  :style="{ backgroundImage: `url(${image})` }">
         <div class="md:px-10 lg:px-16 xl:px-32 py-4">
         <div class="px-6">   
             <router-link to="/" class="image-div cursor-pointer flex items-center h-16">
