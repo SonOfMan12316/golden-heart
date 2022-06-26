@@ -27,8 +27,8 @@
                 <div class="grid gap-y-6">
                     <h2 class="text-white uppercase font-serif font-normal text-xs">Subscribe to Us</h2>
                     <h1 class="text-white font-serif font-normal text-xs">Subscribe to our Newsletter!</h1>   
-                    <form @submit.prevent="handleSubmit" class="relative w-60 sm:w-72 md:w-80">
-                        <input v-model="emailAddress" class="pl-4 pr-2 w-60 bg-white rounded-3xl h-9 md:h-10 font-normal text-xs outline-none" style="color: #828282" type="email" placeholder="Enter your email address here"/>
+                    <form @submit.prevent="handleSubmit" class="relative w-72 md:w-80">
+                        <input v-model="emailAddress" class="pl-4 pr-2 w-60 bg-white rounded-3xl h-9 md:h-10 font-normal text-xs outline-none font-serif" style="color: #828282" type="email" placeholder="Enter your email address here"/>
                         <button class="absolute right-0 md:right-10 lg:right-5 xl:right-3 text-white h-9 md:h-10 font-serif px-2 lg:text-base">Subscribe</button>
                     </form>
                     <h1 class="text-white font-serif font-normal text-xs">Our charity helps those people who have no hope.</h1>

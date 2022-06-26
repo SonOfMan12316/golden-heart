@@ -1,12 +1,12 @@
 <template>
     <div class="LogIn h-screen xl:pb-0  bg-center bg-cover"  :style="{ backgroundImage: `url(${image})` }">
-        <div class="md:px-10 lg:px-16 xl:px-32 py-4">
+        <div class="md:px-10 lg:px-16 xl:px-32">
         <div class="px-6">   
             <router-link to="/" class="image-div cursor-pointer flex items-center h-16">
                 <img :src="logo"/>
             </router-link>
         </div>
-        <div class="px-6 my-10 w-full  xl:w-10/12 sm:mt-14 xl:mt-8 xl:my-0">
+        <div class="px-6 my-14  w-full  xl:w-10/12 sm:mt-14 xl:mt-8 xl:my-0">
         <div class="flex sm:justify-end">
         <div class="w-full sm:w-8/12 xl:w-7/12">
                 <div class="relative  bg-white py-6 md:py-10 sm:py-5 px-6 sm:px-10 lg:px-12  Form">
@@ -18,18 +18,18 @@
                         <h2 :style="{color: `${textColor}`}" class="font-medium font-serif md:font-semibold lg:font-bold ">Sign Up</h2>
                         </router-link>
                     </div>
-                    <div :style="{color: `${logintextColor}`}" class="py-4 font-serif font-normal text-xs">Login to your account</div>
+                    <div :style="{color: `${logintextColor}`}" class="pt-4 font-serif font-normal text-xs">Login to your account</div>
                     <form @submit.prevent="loginUser" class="">
                       <LandingPageTopSvg class="hidden  xl:block absolute -right-12 -top-3"/>
                       <TopLandingPageSvg class="hidden z-50  xl:block absolute -left-5"/>
                       <LandingPageCenterSvg class="hidden z-50 xl:block absolute bottom-20 -right-16"/>
                         
-                        <div class="relative flex flex-col mt-2 sm:mt-4">
+                        <div class="relative flex flex-col mt-4">
                             <label class=" text-xs font-serif  font-normal mb-1">Email</label>
                             <input v-model="email" type="email" class="h-9 font-serif text-black outline-none text-xs font-normal pl-10 pr-4" placeholder="Enter email address" required/>
                             <img class="absolute top-8 md:top-8 xl:top-8 left-3" :src="svg1"/>
                         </div>
-                        <div class="relative flex flex-col mt-2 sm:mt-4">
+                        <div class="relative flex flex-col mt-4">
                             <label class=" text-xs font-serif  font-normal mb-1">Password</label>
                             <input v-model="password" type="password" class="h-9 font-serif text-black outline-none text-xs font-normal pl-10 pr-4" placeholder="Enter password" required/>
                             <img class="absolute top-7 md:top-7 xl:top-7 left-3" :src="svg2"/>
@@ -39,7 +39,7 @@
                             <div @click="toggleAwesome" v-show="awesome" class=" font-serifawesome2 rounded-sm border-2 border-dotted bg-white h-4 w-4"></div>
                             <div class="ml-1.5 text-xs font-serif ">Remember me</div>
                         </div>
-                        <div class="flex justify-center items-center w-full px-6 mt-2 sm:mt-4 lg:mt-6">
+                        <div class="flex justify-center items-center w-full px-6 mt-4 lg:mt-6">
                             <input type="submit" class="cursor-pointer outline-none font-serif h-11 w-full flex justify-center items-center text-white" value="Login"/>
                         </div>
                     </form>

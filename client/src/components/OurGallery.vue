@@ -130,11 +130,11 @@ h1::after {
     }
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1280px) {
     .PlayButtonSvg {
-        left: 6rem;
+        left: 5.5rem;
         right: 6rem;  
-        top: 5rem;
+        top: 4.5rem;
         bottom: 5rem;  
     }
 }

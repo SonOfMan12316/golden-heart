@@ -1,12 +1,12 @@
 <template>
-    <div class="LogIn h-screen md:h-screen xl:h-full  xl:pb-24  bg-center bg-cover"  :style="{ backgroundImage: `url(${image})` }">
-        <div class="md:px-10 lg:px-16 xl:px-32 py-4">
+    <div class="LogIn h-full xl:h-full  xl:pb-24  bg-center bg-cover"  :style="{ backgroundImage: `url(${image})` }">
+        <div class="md:px-10 lg:px-16 xl:px-32">
         <div class="px-6">
             <router-link to="/" class="image-div cursor-pointer flex items-center h-16">
                 <img :src="logo"/>
             </router-link>
         </div>
-        <div class="px-6 my-10 w-full xl:w-10/12 sm:mt-14 xl:mt-8">
+        <div class="px-6 mt-14 pb-14 w-full xl:w-10/12 sm:mt-14 xl:mt-8">
         <div class="flex sm:justify-end">
         <div class="w-full sm:w-8/12 xl:w-7/12">
                 <div class="relative bg-white w-full py-6 md:py-10 px-6 sm:px-10 lg:px-12  Form">
