@@ -65,6 +65,7 @@
 
 <script>
 import { mapActions } from 'vuex'
+// import validations from '../utils/validations'
 import LandingPageCenterSvg from '../components/SvgComponent/LandingPageCenterSvg.vue'
 import TopLandingPageSvg from '../components/SvgComponent/TopLandingPageSvg.vue'
 import LandingPageTopSvg from '../components/SvgComponent/LandingPageTopSvg.vue'
@@ -88,7 +89,8 @@ export default {
             svg1: require('../assets/svgs/Vector2.svg'),
             svg2: require('../assets/svgs/Vector3.svg'),
             ticked: require('../assets/svgs/Group118.svg'),
-            awesome: true
+            awesome: true,
+            // valid: false
         }
     },
     computed: {

@@ -12,7 +12,7 @@
                             <li @click="scrollToGallery" class="cursor-pointer text-white uppercase font-serif font-medium lg:text-sm mx-2">Gallery</li>
                             <li @click="scrollToWhoWeAre" class="cursor-pointer text-white uppercase font-serif font-medium lg:text-sm text-base mx-2 xl:mx-4">Who We Are</li>
                             <li @click="scrollToWhatWeDo" class="cursor-pointer text-white uppercase font-serif font-medium lg:text-sm text-base mx-2 xl:mx-4">What We Do</li>
-                            <li class="text-white uppercase font-serif font-medium lg:text-sm text-base mx-2 xl:mx-4">Contacts</li>
+                            <li class="cursor-pointer text-white uppercase font-serif font-medium lg:text-sm text-base mx-2 xl:mx-4">Contacts</li>
                         </ul>
                     </div>
                     <div class="hidden lg:block lg:mr-3 xl:mr-0" v-show="!mobile">
