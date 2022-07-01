@@ -98,7 +98,7 @@ router.post('/login', (req, res) => {
                 // user's password is correct send jwt next
                 const payload = {
                     _id: user._id,
-                    name: user.name,
+                    // name: user.name,
                     email: user.email
                 }
                 jwt.sign(payload, key, { 

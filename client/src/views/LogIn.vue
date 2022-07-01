@@ -65,7 +65,6 @@
 
 <script>
 import { mapActions } from 'vuex'
-// import validations from '../utils/validations'
 import LandingPageCenterSvg from '../components/SvgComponent/LandingPageCenterSvg.vue'
 import TopLandingPageSvg from '../components/SvgComponent/TopLandingPageSvg.vue'
 import LandingPageTopSvg from '../components/SvgComponent/LandingPageTopSvg.vue'
@@ -90,24 +89,9 @@ export default {
             svg2: require('../assets/svgs/Vector3.svg'),
             ticked: require('../assets/svgs/Group118.svg'),
             awesome: true,
-            // valid: false
-        }
-    },
-    computed: {
-        full_name: {
-        get() {
-            return `${this.first_name} ${this.surname}`;
-        },
-        set(newValue) {
-            const m = newValue.match(/(\S*)\s+(.*)/);
-
-            this.firstName = m[1];
-            this.lastName = m[2];
-        }
         }
     },
     methods: {
-       
         toggleAwesome() {
             this.awesome = !this.awesome
         },
@@ -129,13 +113,8 @@ export default {
             }).catch(err => {
              console.log(err);
          });
-        },
-        // setName: function(first_name,surname ) {
-        //     this.first_name = first_name,
-        //     this.surname = surname,
-        // }
-    }
-        
+        }
+    }     
 }
 </script>
 
